@@ -7,3 +7,7 @@
 # R
 .Rhistory
 .RData
+
+# IDE除外
+.zed/
+.vscode/
