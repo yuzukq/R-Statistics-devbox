@@ -111,9 +111,24 @@ R-Statistics-devbox/
 
 ## [備考]パッケージ管理について
 
-| 対象 | 管理方法 |
-|---|---|
-| R本体・開発ツール | devbox（`devbox add rPackages.xxx`） |
-| 解析用パッケージ（tidyverse等） | renv（別途導入）|
+解析パッケージも含めてすべて `devbox add` で管理します。
 
-CRANから `install.packages()` で直接インストールするとNixストアが読み取り専用のためエラーになります。解析パッケージはrenvを使って管理してください。
+```bash
+devbox add rPackages.tidyverse rPackages.sem
+```
+
+nixpkgsのRパッケージはCRANのスナップショットから自動生成されており、統計解析で使う主要パッケージはほぼカバーされています。
+
+> "The R-packages available in `<nixpkgs>` are generated from a recent snapshot of CRAN."
+> — [NixOS Wiki - R](https://wiki.nixos.org/wiki/R)
+
+> "There is a script and associated environment for regenerating the package sets and synchronising the rPackages tree to the current CRAN and matching BIOC release."
+> — [nixpkgs languages-frameworks/r](https://github.com/NixOS/nixpkgs/blob/master/doc/languages-frameworks/r.section.md)
+
+ただし一部パッケージはバージョンが遅れる場合があります。インストール前に存在確認したい場合は以下で検索できます：
+
+```bash
+devbox search rPackages.パッケージ名
+```
+
+> **注意:** `install.packages()` による直接インストールはNixストアが読み取り専用のためエラーになります。
