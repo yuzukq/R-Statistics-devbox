@@ -88,6 +88,54 @@
           "store_path": "/nix/store/mpy98l6jrizfsci9wqsqbv3iw72fhmg0-R-4.5.3"
         }
       }
+    },
+    "rPackages.languageserver@latest": {
+      "last_modified": "2026-05-25T07:42:19Z",
+      "resolved": "github:NixOS/nixpkgs/f9d8b65950353691ab56561e7c73d2e1063d810b#rPackages.languageserver",
+      "source": "devbox-search",
+      "version": "0.3.17",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sllg9a2vpzzyv1vlislwml6g8hg777lm-r-languageserver-0.3.17",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sllg9a2vpzzyv1vlislwml6g8hg777lm-r-languageserver-0.3.17"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/a0bfjpxy1crwamy4kx6r9mgj6pyqpwrk-r-languageserver-0.3.17",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/a0bfjpxy1crwamy4kx6r9mgj6pyqpwrk-r-languageserver-0.3.17"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9rzif505659m8ba0basiav0lzpim0wmr-r-languageserver-0.3.17",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9rzif505659m8ba0basiav0lzpim0wmr-r-languageserver-0.3.17"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7pqh0cswfq5hj9vvlslmyc3slgkx2aff-r-languageserver-0.3.17",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7pqh0cswfq5hj9vvlslmyc3slgkx2aff-r-languageserver-0.3.17"
+        }
+      }
     }
   }
 }
