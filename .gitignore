@@ -8,6 +8,10 @@
 .Rhistory
 .RData
 
+# 生成物（スクリプトで再現可能なので除外）
+output/
+data/processed/
+
 # IDE除外
 .zed/
 .vscode/
