@@ -1,0 +1,9 @@
+# devbox
+.devbox/
+
+# macOS
+.DS_Store
+
+# R
+.Rhistory
+.RData
