@@ -5,12 +5,12 @@ df <- read.csv("../../data/exercise/ex9.csv")
 before <- df$参加前
 after  <- df$参加後
 
-# 対応のある t 検定（参加前 > 参加後 を検証する片側検定）
-t.test(before, after, paired = TRUE, alternative = "greater")
+# 対応のある t 検定（両側検定）
+t.test(before, after, paired = TRUE)
 
 # --- 結果の解釈 ---
 # 帰無仮説：参加前後の体重の母平均差はゼロ（効果なし）
-# 対立仮説：参加前の体重 > 参加後の体重（体重が減った）
+# 対立仮説：参加前後の体重の母平均差はゼロでない（効果あり）
 #
 # paired = TRUE により、個人差を除いた「前後の差」だけを検定できる。
 # paired = FALSE（独立2標本）だと個人差がノイズになり検定力が下がる。
