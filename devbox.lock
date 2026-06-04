@@ -137,6 +137,54 @@
         }
       }
     },
+    "rPackages.pwr@latest": {
+      "last_modified": "2026-05-25T07:42:19Z",
+      "resolved": "github:NixOS/nixpkgs/f9d8b65950353691ab56561e7c73d2e1063d810b#rPackages.pwr",
+      "source": "devbox-search",
+      "version": "1.3-0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rr1z47f5xxqvj1p4xnxrhmmvwfbv8frl-r-pwr-1.3-0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rr1z47f5xxqvj1p4xnxrhmmvwfbv8frl-r-pwr-1.3-0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xgsjv8v8gvahp1jvpl9sfaz5lp6989ah-r-pwr-1.3-0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xgsjv8v8gvahp1jvpl9sfaz5lp6989ah-r-pwr-1.3-0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6plr44iqmy88aip7hkknwc7a1cjg7s3h-r-pwr-1.3-0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6plr44iqmy88aip7hkknwc7a1cjg7s3h-r-pwr-1.3-0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fc49jpaq6gm4fqc3zsxag8s4ghv33v14-r-pwr-1.3-0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/fc49jpaq6gm4fqc3zsxag8s4ghv33v14-r-pwr-1.3-0"
+        }
+      }
+    },
     "rPackages.sem@latest": {
       "last_modified": "2026-05-25T07:42:19Z",
       "resolved": "github:NixOS/nixpkgs/f9d8b65950353691ab56561e7c73d2e1063d810b#rPackages.sem",

@@ -3,7 +3,8 @@
   "packages": [
     "r@latest",
     "rPackages.languageserver@latest",
-    "rPackages.sem@latest"
+    "rPackages.sem@latest",
+    "rPackages.pwr@latest"
   ],
   "shell": {
     "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
